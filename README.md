@@ -1,7 +1,7 @@
 ![alt text](https://github.com/techrisdev/Mac-Uninstaller/blob/main/Mac%20Uninstaller/Assets.xcassets/AppIcon.appiconset/icon_256x256.png?raw=true)
 # Mac Uninstaller
 Completely uninstall Mac Apps with all Files they typically leave behind.
-###### This App isn't tested well, so use it on your own risk and check before you trash anything!
+#### This App isn't tested well, so use it on your own risk and check before you trash anything!
 
 ## Features
 
