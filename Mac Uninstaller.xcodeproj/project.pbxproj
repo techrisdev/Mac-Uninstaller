@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C30117425B83AFA004BCC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30117325B83AFA004BCC52 /* AppDelegate.swift */; };
+		6C30117625B83AFB004BCC52 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30117525B83AFB004BCC52 /* ResultView.swift */; };
+		6C30117825B83AFF004BCC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C30117725B83AFF004BCC52 /* Assets.xcassets */; };
+		6C30117B25B83AFF004BCC52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C30117A25B83AFF004BCC52 /* Preview Assets.xcassets */; };
+		6C30117E25B83AFF004BCC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C30117C25B83AFF004BCC52 /* Main.storyboard */; };
+		6C30118925B88E1E004BCC52 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30118825B88E1E004BCC52 /* StartView.swift */; };
+		6C4D24AD25CEE3A200E28854 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D24AC25CEE3A200E28854 /* Title.swift */; };
+		6C4D24B125CEE4AA00E28854 /* FullDiskAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D24B025CEE4AA00E28854 /* FullDiskAccess.swift */; };
+		6C4D24B925CEFB2700E28854 /* ContainsSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D24B825CEFB2700E28854 /* ContainsSpace.swift */; };
+		6C5046E525CD57CD00783813 /* ManualModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046E425CD57CD00783813 /* ManualModeView.swift */; };
+		6C5046E925CEDF3100783813 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046E825CEDF3100783813 /* BackButton.swift */; };
+		6C5046EC25CEDFB700783813 /* GetFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046EB25CEDFB700783813 /* GetFiles.swift */; };
+		6C5046EF25CEDFD000783813 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046EE25CEDFD000783813 /* CurrentView.swift */; };
+		6C5046F225CEDFF000783813 /* CustomButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046F125CEDFF000783813 /* CustomButtonLabel.swift */; };
+		6C5046F525CEE02700783813 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5046F425CEE02700783813 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C30117025B83AFA004BCC52 /* Mac Uninstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Uninstaller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C30117325B83AFA004BCC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C30117525B83AFB004BCC52 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		6C30117725B83AFF004BCC52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C30117A25B83AFF004BCC52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C30117D25B83AFF004BCC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C30117F25B83AFF004BCC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C30118025B83AFF004BCC52 /* Mac_Uninstaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_Uninstaller.entitlements; sourceTree = "<group>"; };
+		6C30118825B88E1E004BCC52 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		6C4D24AC25CEE3A200E28854 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		6C4D24B025CEE4AA00E28854 /* FullDiskAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDiskAccess.swift; sourceTree = "<group>"; };
+		6C4D24B825CEFB2700E28854 /* ContainsSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsSpace.swift; sourceTree = "<group>"; };
+		6C5046E425CD57CD00783813 /* ManualModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualModeView.swift; sourceTree = "<group>"; };
+		6C5046E825CEDF3100783813 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		6C5046EB25CEDFB700783813 /* GetFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFiles.swift; sourceTree = "<group>"; };
+		6C5046EE25CEDFD000783813 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		6C5046F125CEDFF000783813 /* CustomButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonLabel.swift; sourceTree = "<group>"; };
+		6C5046F425CEE02700783813 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C30116D25B83AFA004BCC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C30116725B83AFA004BCC52 = {
+			isa = PBXGroup;
+			children = (
+				6C30117225B83AFA004BCC52 /* Mac Uninstaller */,
+				6C30117125B83AFA004BCC52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C30117125B83AFA004BCC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C30117025B83AFA004BCC52 /* Mac Uninstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C30117225B83AFA004BCC52 /* Mac Uninstaller */ = {
+			isa = PBXGroup;
+			children = (
+				6C30117325B83AFA004BCC52 /* AppDelegate.swift */,
+				6C5046EE25CEDFD000783813 /* CurrentView.swift */,
+				6C5046F425CEE02700783813 /* File.swift */,
+				6C5046F725CEE03C00783813 /* Views */,
+				6C5046F825CEE08B00783813 /* Utils */,
+				6C30117725B83AFF004BCC52 /* Assets.xcassets */,
+				6C30117C25B83AFF004BCC52 /* Main.storyboard */,
+				6C30117F25B83AFF004BCC52 /* Info.plist */,
+				6C30118025B83AFF004BCC52 /* Mac_Uninstaller.entitlements */,
+				6C30117925B83AFF004BCC52 /* Preview Content */,
+			);
+			path = "Mac Uninstaller";
+			sourceTree = "<group>";
+		};
+		6C30117925B83AFF004BCC52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C30117A25B83AFF004BCC52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C5046F725CEE03C00783813 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C30118825B88E1E004BCC52 /* StartView.swift */,
+				6C5046E425CD57CD00783813 /* ManualModeView.swift */,
+				6C30117525B83AFB004BCC52 /* ResultView.swift */,
+				6C5046F125CEDFF000783813 /* CustomButtonLabel.swift */,
+				6C5046E825CEDF3100783813 /* BackButton.swift */,
+				6C4D24AC25CEE3A200E28854 /* Title.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C5046F825CEE08B00783813 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C5046EB25CEDFB700783813 /* GetFiles.swift */,
+				6C4D24B025CEE4AA00E28854 /* FullDiskAccess.swift */,
+				6C4D24B825CEFB2700E28854 /* ContainsSpace.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C30116F25B83AFA004BCC52 /* Mac Uninstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C30118325B83AFF004BCC52 /* Build configuration list for PBXNativeTarget "Mac Uninstaller" */;
+			buildPhases = (
+				6C30116C25B83AFA004BCC52 /* Sources */,
+				6C30116D25B83AFA004BCC52 /* Frameworks */,
+				6C30116E25B83AFA004BCC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Uninstaller";
+			productName = "Mac Uninstaller";
+			productReference = 6C30117025B83AFA004BCC52 /* Mac Uninstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C30116825B83AFA004BCC52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6C30116F25B83AFA004BCC52 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 6C30116B25B83AFA004BCC52 /* Build configuration list for PBXProject "Mac Uninstaller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C30116725B83AFA004BCC52;
+			productRefGroup = 6C30117125B83AFA004BCC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C30116F25B83AFA004BCC52 /* Mac Uninstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C30116E25B83AFA004BCC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C30117E25B83AFF004BCC52 /* Main.storyboard in Resources */,
+				6C30117B25B83AFF004BCC52 /* Preview Assets.xcassets in Resources */,
+				6C30117825B83AFF004BCC52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C30116C25B83AFA004BCC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4D24AD25CEE3A200E28854 /* Title.swift in Sources */,
+				6C4D24B925CEFB2700E28854 /* ContainsSpace.swift in Sources */,
+				6C5046EC25CEDFB700783813 /* GetFiles.swift in Sources */,
+				6C5046F225CEDFF000783813 /* CustomButtonLabel.swift in Sources */,
+				6C30118925B88E1E004BCC52 /* StartView.swift in Sources */,
+				6C5046E525CD57CD00783813 /* ManualModeView.swift in Sources */,
+				6C30117625B83AFB004BCC52 /* ResultView.swift in Sources */,
+				6C30117425B83AFA004BCC52 /* AppDelegate.swift in Sources */,
+				6C5046E925CEDF3100783813 /* BackButton.swift in Sources */,
+				6C5046F525CEE02700783813 /* File.swift in Sources */,
+				6C5046EF25CEDFD000783813 /* CurrentView.swift in Sources */,
+				6C4D24B125CEE4AA00E28854 /* FullDiskAccess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C30117C25B83AFF004BCC52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C30117D25B83AFF004BCC52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C30118125B83AFF004BCC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C30118225B83AFF004BCC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6C30118425B83AFF004BCC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mac Uninstaller/Mac_Uninstaller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mac Uninstaller/Preview Content\"";
+				DEVELOPMENT_TEAM = BNNQH627DX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mac Uninstaller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.techris.Mac-Uninstaller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C30118525B83AFF004BCC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mac Uninstaller/Mac_Uninstaller.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mac Uninstaller/Preview Content\"";
+				DEVELOPMENT_TEAM = BNNQH627DX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mac Uninstaller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.techris.Mac-Uninstaller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C30116B25B83AFA004BCC52 /* Build configuration list for PBXProject "Mac Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C30118125B83AFF004BCC52 /* Debug */,
+				6C30118225B83AFF004BCC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C30118325B83AFF004BCC52 /* Build configuration list for PBXNativeTarget "Mac Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C30118425B83AFF004BCC52 /* Debug */,
+				6C30118525B83AFF004BCC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C30116825B83AFA004BCC52 /* Project object */;
+}
