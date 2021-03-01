@@ -17,16 +17,18 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSMainStoryboardFile</key>
 	<string>Main</string>
-	<key>NSSystemAdministrationUsageDescription</key>
-	<string>You need to grant Full Disk Access for this App to work.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>You need to grant Full Disk Access for this App to work.</string>
 </dict>
 </plist>
