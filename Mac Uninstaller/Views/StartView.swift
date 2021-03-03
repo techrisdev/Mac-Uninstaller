@@ -54,7 +54,7 @@ struct StartView: View {
 					CustomButtonLabel(text: "Manual Mode")
 				})
 				.buttonStyle(PlainButtonStyle())
-				.padding(.bottom)
+				.padding(.bottom, 27.5)
 			}
 		} else if currentView == .manualModeView {
 			ManualModeView(chosenApp: $chosenApp, showingChooseSpaceOptionAlert: $showingChooseSpaceOptionAlert, currentView: $currentView)
